@@ -39,7 +39,7 @@ disabled: "🔇" # when the player is connected but e.g. muted
 not_installed: "❌" # when the player does not have the the mod installed
 talk_timeout_ms: 300 # Time in milliseconds after which the talking icon stops. 300 works well for most use cases.
 
-NOTE: You can set "🔊" to talcking, whispering, quiet
+NOTE: You can set "🔊" to talking, whispering, quiet
 to show only that player can talk and 🔇 to not_installed and
 disabled for binary icon. Or even use javascript in PlaysholderAPI to
 manage icons and make more playsholders yourself
