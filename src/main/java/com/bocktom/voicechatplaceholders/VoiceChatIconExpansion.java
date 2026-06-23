@@ -23,6 +23,11 @@ public class VoiceChatIconExpansion extends PlaceholderExpansion {
 	}
 
 	@Override
+	public boolean persist() {
+		return true;
+	}
+
+	@Override
 	public @Nullable String onPlaceholderRequest(Player player, @NotNull String raw) {
 		if(player == null) {
 			return "";
